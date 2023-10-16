@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8267b9282dce57f43b74aba6736be5f9
+  m_SerializeEntries:
+  - m_GUID: 159c3f80f8b3adb4a8ae9b147ebf4f8b
+    m_Address: Assets/AssetManagement/ManyRocks.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e74734055c3cf64dbbb0f1793dc9764
+    m_Address: Assets/Rocks and Boulders 2/Rocks/Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rocks
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0a53b213d1b32cb4bb6aa3d55b3d9328, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7519a1e00c6cd4f4f9b62cd4f689a78d, type: 2}
+    - {fileID: 11400000, guid: 8a29894ccba24c34a9b583c39a3240f8, type: 2}
