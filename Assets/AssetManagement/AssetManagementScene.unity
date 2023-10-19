@@ -335,7 +335,7 @@ Transform:
   m_GameObject: {fileID: 1978130682}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.173761, y: 22.918367, z: 6.638218}
+  m_LocalPosition: {x: 16.17375, y: 22.918367, z: 6.638218}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -353,6 +353,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 482b05c5555133c428cd83775890851e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AssetReference:
+    m_AssetGUID: 7cdd7ffcccba6e645825d204a4c6716b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  m_AssetLabel:
+    m_LabelString: Rocks
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
