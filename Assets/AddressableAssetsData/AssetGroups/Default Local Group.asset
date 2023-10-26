@@ -28,6 +28,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Rocks
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cdd7ffcccba6e645825d204a4c6716b
+    m_Address: Assets/AssetManagement/AssetManagementScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 0a53b213d1b32cb4bb6aa3d55b3d9328, type: 2}
   m_SchemaSet:
