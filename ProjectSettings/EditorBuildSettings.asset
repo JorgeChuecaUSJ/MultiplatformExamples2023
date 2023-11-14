@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/AssetManagement/AssetManagementScene.unity
     guid: 7cdd7ffcccba6e645825d204a4c6716b
+  - enabled: 1
+    path: Assets/VR/VR_Testing.unity
+    guid: 6c94ae3d59629d74a952c3d56c2caaa2
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 80705ac6c7dd1294e97665235625b2e6, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 2a7b3cf0220cbfe40b922cff4255fa59, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e46613afafd5ad84eb4607a232ec18d5, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 24b1acb5b7a0fea4681f1b240fe7175e, type: 2}

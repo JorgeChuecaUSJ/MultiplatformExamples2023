@@ -35,6 +35,18 @@ public class InputDetecter : MonoBehaviour
             break;
         }
 
+        if(device is Mouse)
+        {
+            foreach (InputControl control in eventPtr.EnumerateChangedControls(device, 0.1f))
+            {
+                if (control.displayName.Contains("Position") || control.displayName.Contains("Delta"))
+                {
+                    validInput = false;
+                    break;
+                }
+            }
+        }
+
         if (!validInput)
         {
             return;
@@ -52,10 +64,14 @@ public class InputDetecter : MonoBehaviour
             Debug.Log("GAMEPAD: " + deviceData);
             SetIndicatorTex(m_GamepadTex);
         }
-        else if (device is Keyboard || device is Mouse)
+        else if (device is Keyboard )
         {
-            Debug.Log("K&M: " + deviceData);
+            Debug.Log("Keyboard: " + deviceData);
             SetIndicatorTex(m_KeyboardTex);
+        }
+        else if (device is Mouse)
+        {
+            Debug.Log("Mouse: " + deviceData);
         }
         else
         {
