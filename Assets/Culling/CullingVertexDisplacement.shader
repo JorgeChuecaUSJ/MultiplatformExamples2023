@@ -31,7 +31,7 @@ Shader "Unlit/CullingVertexDisplacement"
             v2f vert (appdata v)
             {
                 v2f o;
-                v.vertex.z += sin(_Time.y);
+                v.vertex.z += 1;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 return o;
             }
